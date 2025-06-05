@@ -44,5 +44,24 @@ nmap -Pn 192.168.1.1
 
 nmap --spoof-mac Cisco 192.168.1.1
 
+📜 Scripts NSE (Nmap Scripting Engine)
 
+### Usar un script individual
 
+nmap --script http-title 192.168.1.1
+
+### Usar una categoría de scripts
+
+nmap --script vuln 192.168.1.1
+
+💡 Otras opciones útiles
+
+### Guardar resultados
+
+nmap -oN scan.txt 192.168.1.1         # salida normal
+nmap -oX scan.xml 192.168.1.1         # salida XML
+nmap -oA nombrearchivo 192.168.1.1    # todas las salidas (normal, XML, grepable)
+
+### Escaneo con archivo de IPs
+
+nmap -iL lista_ips.txt

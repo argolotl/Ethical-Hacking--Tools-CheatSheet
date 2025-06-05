@@ -59,7 +59,9 @@ nmap --script vuln 192.168.1.1
 ### Guardar resultados
 
 nmap -oN scan.txt 192.168.1.1         # salida normal
+
 nmap -oX scan.xml 192.168.1.1         # salida XML
+
 nmap -oA nombrearchivo 192.168.1.1    # todas las salidas (normal, XML, grepable)
 
 ### Escaneo con archivo de IPs

@@ -67,3 +67,14 @@ nmap -oA nombrearchivo 192.168.1.1    # todas las salidas (normal, XML, grepable
 ### Escaneo con archivo de IPs
 
 nmap -iL lista_ips.txt
+
+### Identificar vulnerabilidades conocidas en el sistema
+
+sudo nmap -f --script vuln 192.168.1.1
+
+### Ejecutar secuencias de comandos menos intrusivas
+
+sudo nmap -f --script safe 192.168.1.1
+
+
+

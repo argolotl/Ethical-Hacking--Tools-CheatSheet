@@ -9,6 +9,7 @@
 ##  🧪 1. Pruebas básicas para detectar SQLi
 
 ' OR '1'='1
+
 " OR "1"="1
 ' OR 1=1 --
 " OR 1=1 --

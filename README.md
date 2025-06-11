@@ -3,7 +3,7 @@
 Este repositorio contiene una recopilación organizada de comandos, ejemplos y notas para las herramientas más comunes en Kali Linux, útiles para CTFs, pentesting y aprendizaje.
 
 > ✍️ Autor: argolotl
-> 📅 Última actualización: 06 - Junio - 2025
+> 📅 Última actualización: 11 - Junio - 2025
 ---
 
 ## 📚 Índice
